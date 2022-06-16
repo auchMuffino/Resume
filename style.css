@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* .grid
+{
+    background-color: rgba(170,20,50,.3);
+} */
+.navbar
+{
+    height: 5vh;
+    background-color: rgb(137, 62, 232);
+    border-radius:.3vh;
+}
+.blockBgColor
+{
+    background-color:rgba(217, 217, 217, .2);
+    padding: 2vh;
+}
+.MainText
+{
+    font-family: 'Anek Malayalam', sans-serif;
+    /* font-family: 'Exo 2', sans-serif;
+    font-family: 'Gudea', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; */
+    font-style:normal;
+    font-weight: 200;
+    font-size: 4.5vh;
+    line-height: 3vw;
+    color: black;
+}
+hr 
+{
+    border: none; 
+    background-color: rgb(137, 62, 232);
+    height: 1vh; 
+}
+.messageFromMe
+{
+    padding-left:2vh;
+    width: 41vw;
+    height: auto;
+    border-width: 0vh 0vh 0vh .5vh;
+    border-color: rgb(137, 62, 232);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+.messageFromYou
+{
+    align-items: flex-start;
+    text-align: right;
+    padding-right:2vh;
+    width: 41vw;
+    height: auto;
+    border-width: 0vh .5vh 0vh 0vh;
+    border-color: rgb(22, 235, 120);
+    border-style: solid;
+}
+.chat1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.chat2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn
+{
+    color: white;
+    background-color: rgb(137, 62, 232);
+    width: 10vw;
+}
+.myPhoto
+{
+    height: 60vh;
+    width: 49vh;
+}
