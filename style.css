@@ -7,26 +7,22 @@
 {
     background-color: rgba(170,20,50,.3);
 } */
-.navbar
+.nav
 {
-    height: 5vh;
     background-color: rgb(137, 62, 232);
     border-radius:.3vh;
 }
 .blockBgColor
 {
-    background-color:rgba(217, 217, 217, .2);
+    background-color:rgba(217, 217, 217, .09);
     padding: 2vh;
 }
 .MainText
 {
     font-family: 'Anek Malayalam', sans-serif;
-    /* font-family: 'Exo 2', sans-serif;
-    font-family: 'Gudea', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif; */
     font-style:normal;
     font-weight: 200;
-    font-size: 4.5vh;
+    font-size: 2.5vw;
     line-height: 3vw;
     color: black;
 }
@@ -34,7 +30,7 @@ hr
 {
     border: none; 
     background-color: rgb(137, 62, 232);
-    height: 1vh; 
+    height: 1.5vh;
 }
 .messageFromMe
 {
@@ -80,3 +76,97 @@ hr
     height: 60vh;
     width: 49vh;
 }
+.contactIcon
+{
+    height: 2.5vw;
+    width: auto;
+}
+.contacts
+{
+    background: none;
+}
+.email
+{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Gudea', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style:normal;
+    font-weight:bolder;
+    font-size: 3vw;
+    color: rgb(137, 62, 232);
+}
+.hint
+{
+    width: 15vw;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Gudea', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style:normal;
+    font-size: 2vw;
+    color:rgba(217, 217, 217, .3);
+}
+.phone
+{
+    padding-left: 2vh;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-style:normal;
+    font-weight: 200;
+    font-size: 1.5vw;
+    color: rgb(137, 62, 232);
+}
+.skills
+{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-style:normal;
+    font-weight: 200;
+    font-size: 1.7vw;
+    color: rgb(137, 62, 232);
+}
+#Demo_headings h1 {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+
+    font-family: 'Anek Malayalam', sans-serif;
+    font-style:normal;
+    font-weight: 200;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    color: black;
+    }
+#Demo_headings h1:before,
+#Demo_headings h1:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 2px;
+
+    vertical-align: middle;
+    background: rgb(137, 62, 232);
+    background-clip: content-box;
+    border-bottom: .1vw solid rgb(137, 62, 232);
+    }
+#Demo_headings h1:before {
+    left: -.5em;
+    margin: 0 0 0 -50%;
+    }
+#Demo_headings h1:after {
+    left: .5em;
+    margin: 0 -50% 0 0;
+    }
+#Demo_headings h1>span:not([class]) {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    }
+
+/* Works on any background */
+#Demo_headings {
+    padding: 1em;
+    text-shadow: none;
+    border-radius: inherit;
+    }

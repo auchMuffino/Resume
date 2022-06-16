@@ -7,7 +7,7 @@
     <title>Tsimafei Navarro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Exo+2:wght@300&family=Gudea&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;600&family=Exo+2:wght@300&family=Gudea&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
@@ -17,15 +17,27 @@
 
         <div class="row justify-content-center">
             <div class="col-md-9 grid">
-                    <nav class="navbar sticky-top justify-content-around MainText">
-                            <!-- <a class="navbar-brand text-white" href="#">Home</a>
-                            <a class="navbar-brand text-white" href="#">About me</a>
-                            <a class="navbar-brand text-white" href="#">My contacts</a>
-                            <a class="navbar-brand text-white" href="#">My projects</a>
-                            <a class="navbar-brand text-white" href="#">Skills</a> -->
-                    </nav>
+
+                <ul class="nav sticky-top justify-content-around MainText">
+                    <li class="nav-item">
+                        <a class="navbar-brand text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand text-white" href="#aboutMe">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand text-white" href="#myContacts">My contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand text-white" href="#myProjects">My projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand text-white" href="#mySkills">Skills</a>
+                    </li>
+                </ul>
+
                     <br>
-                <div class="container blockBgColor">
+                <div class="container-fluid blockBgColor" id="home">
                     <div class="chat1">
                         <p class="MainText messageFromMe">
                             Hello! My name is Tsimafei and I’m a software developer. I love listening to music, swimming, studying and playing board games.
@@ -46,7 +58,7 @@
                 <br>
                     <hr id="aboutMe">
                 <br>
-                <div class="container blockBgColor">
+                <div class="container-fluid blockBgColor">
                     <div class="chat1">
                         <p class="MainText messageFromMe">
                             I live in Minsk, I'm 19 years old and I am a 3rd year student at the Minsk College of Business. During my studies, I studied languages ​​such as: C++, C#, CSS, HTML, JS, SQL. Also, outside of college, I actively learn Java, because I want to be a developer in this language. The most important thing for me is self-development and love.
@@ -73,27 +85,89 @@
                     <div class="chat1">
                         <p class="MainText messageFromMe">
                             I hope you will like it
-                            <a href="#" class="btn MainText">Projects</a>
+                            <a href="#myProjects" class="btn MainText">Projects</a>
                         </p>
                     </div>
                 </div>
                 <br>
-                    <hr>
+                    <hr id="myProjects">
                 <br>
-                <div class="container blockBgColor">
-                    s
+                <div class="container-fluid blockBgColor">
+                    <div id="Demo_headings">
+                        <h1>Sudoku</h1>  
+                        <h1>Coffee Shop</h1>
+                        <h1>C++ Basics</h1>    
+                    </div>
                 </div>
                 <br>
-                    <hr>
+                    <hr id="mySkills">
                 <br>
-                <div class="container blockBgColor">
-                    s
+                <div class="container-fluid blockBgColor">                    
+                    <p class="skills">
+                        C++ — I understand OOP well, its principles, I can sort with bubbles with my eyes closed, I also know doubly linked lists, hash tables, etc;  
+                        <br>
+                        <br>
+                        C# — I know how to work in visual studio and windows forms, how to use interfaces, threads, delegates, events, XML, ADO.NET, etc; 
+                        <br>
+                        <br>
+                        SQL — I am well versed in this language, with a complete understanding of the structure and what I write. I know how to create tables, how to fill them, change them, display values ​​in any form, I know subqueries, groupings, triggers, procedures, views and joining tables;
+                        <br>
+                        <br>
+                        HTML — I can easily imagine the structure of the site in a block view and implement it;
+                        <br>
+                        <br>
+                        CSS — I manage the block model like a terreodor with a bull, I know how to make adaptability for different screen sizes and devices;
+                        <br>
+                        <br>
+                        JavaScript —  So... I know that such a language exists, if I need to do something, I google very professionally, parse someone else's code and paste it into my project;
+                        <br>
+                        <br>
+                        PHP — Basic knowledge;
+                        <br>
+                        <br>
+                        Python — Basic knowledge;
+                        <br>
+                        <br>
+                        Creativity — My strongest point, though I don’t know how to measure it, but if measured in watermelons, then my creativity is at the level of 10 out of 10 watermelons;
+                        <br>
+                        <br>
+                        Analytical mindset — two rounds of the mafia game and I will recognize your role ;) 
+                        <br>
+                        <br>
+                        I easily understand the essence of the problem, I immediately throw in a bunch of options for solving it. If I do not know something, I rely only on myself and look for the answer on the Internet.    
+                    </p>
                 </div>
                 <br>
-                    <hr>
+                    <hr id="myContacts">
                 <br>
-                <div class="container blockBgColor">
-                    s
+                <div class="container-fluid blockBgColor">
+                    <p>
+                        <span class="email">ipatiinavarro@gmail.com</span><br>
+                        <span class="phone">+375 (29) 260-78-91</span>
+                    </p>
+                    <br>
+                        <p class="hint">
+                            I'll wait for<br>your response!
+                        </p>
+                    <br>
+                    <br>
+                    <ul class="nav justify-content-around MainText contacts">
+                        <li class="nav-item">
+                            <img src="images/vk.png" alt="" class="contactIcon">
+                        </li>
+                        <li class="nav-item">
+                            <img src="images/dis.png" alt="" class="contactIcon">
+                        </li>
+                        <li class="nav-item">
+                            <img src="images/tg.png" alt="" class="contactIcon">
+                        </li>
+                        <li class="nav-item">
+                            <img src="images/git.png" alt="" class="contactIcon">
+                        </li>
+                        <li class="nav-item">
+                            <img src="images/inst.png" alt="" class="contactIcon">
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
