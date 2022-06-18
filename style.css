@@ -57,7 +57,6 @@ hr
 .chat1
 {
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
 }
 .chat2
@@ -78,7 +77,7 @@ hr
 }
 .contactIcon
 {
-    height: 2.5vw;
+    height: 3.2vw;
     width: auto;
 }
 .contacts
@@ -105,7 +104,7 @@ hr
     font-family: 'Source Sans Pro', sans-serif;
     font-style:normal;
     font-size: 2vw;
-    color:rgba(217, 217, 217, .3);
+    color:rgba(217, 217, 217, .4);
 }
 .phone
 {
@@ -170,3 +169,40 @@ hr
     text-shadow: none;
     border-radius: inherit;
     }
+.Sudoku
+{
+    width: 30vw;
+    height: auto;
+}
+.SudokuText
+{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 30vw;
+    height: auto;
+}
+.projectHint
+{
+    text-align: center;
+    width: auto;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Gudea', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style:normal;
+    font-size: 3vw;
+    color:rgba(217, 217, 217, .4);
+}
+.CoffeeText
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 30vw;
+    height: auto;
+}
+.Coffee{
+    width: 30vw; 
+    height: 8.3vw;
+}
