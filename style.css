@@ -68,13 +68,6 @@ hr
     display: flex;
     justify-content: flex-end;
 }
-.btn
-{
-    height: 2vw;
-    color: white;
-    background-color: rgb(137, 62, 232);
-    width: 10vw;
-}
 .myPhoto
 {
     height: 45vw;
@@ -92,9 +85,6 @@ hr
 .email
 {
     font-family: 'Anek Malayalam', sans-serif;
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Gudea', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
     font-style:normal;
     font-weight:bolder;
     font-size: 3vw;
@@ -102,13 +92,13 @@ hr
 }
 .hint
 {
-    width: 15vw;
+    width: 20vw;
     font-family: 'Anek Malayalam', sans-serif;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Gudea', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     font-style:normal;
-    font-size: 2vw;
+    font-size: 3vw;
     color:rgba(217, 217, 217, .4);
 }
 .phone
@@ -215,9 +205,26 @@ hr
 {
     font-family: 'Anek Malayalam', sans-serif;
     font-style:normal;
-    height: 2vw;
+    font-size: 1.5vw;
     color: white;
 }
-.btn{
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    color: white;
     text-align: center;
+    height: 2vw;
+    background-color: rgb(137, 62, 232);
+    border-radius: 0.3vw;
+    width: 10vw;
+}
+.element-animation
+{
+    opacity: 0;
+}
+.element-animation.element-show{
+    opacity: 1;
+    transition: opacity 1s;
 }
