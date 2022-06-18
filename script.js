@@ -15,7 +15,6 @@ function onEntry(entry) {
     observer.observe(elm);
   }
 
-
   const anchors = document.querySelectorAll('.scroll-to')
 
 for (let anchor of anchors) {
