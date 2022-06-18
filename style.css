@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body
+{
+    overflow-x: hidden;
+}
 /* .grid
 {
     background-color: rgba(170,20,50,.3);
@@ -30,14 +34,14 @@ hr
 {
     border: none; 
     background-color: rgb(137, 62, 232);
-    height: 1.5vh;
+    height: 1.5vw;
 }
 .messageFromMe
 {
-    padding-left:2vh;
+    padding-left:1.5vw;
     width: 41vw;
     height: auto;
-    border-width: 0vh 0vh 0vh .5vh;
+    border-width: 0vh 0vh 0vh .3vw;
     border-color: rgb(137, 62, 232);
     border-style: solid;
     display: flex;
@@ -47,10 +51,10 @@ hr
 {
     align-items: flex-start;
     text-align: right;
-    padding-right:2vh;
+    padding-right:1.5vw;
     width: 41vw;
     height: auto;
-    border-width: 0vh .5vh 0vh 0vh;
+    border-width: 0vh .3vw 0vh 0vh;
     border-color: rgb(22, 235, 120);
     border-style: solid;
 }
@@ -66,14 +70,15 @@ hr
 }
 .btn
 {
+    height: 2vw;
     color: white;
     background-color: rgb(137, 62, 232);
     width: 10vw;
 }
 .myPhoto
 {
-    height: 60vh;
-    width: 49vh;
+    height: 45vw;
+    width: auto;
 }
 .contactIcon
 {
@@ -205,4 +210,14 @@ hr
 .Coffee{
     width: 30vw; 
     height: 8.3vw;
+}
+.MenuAndButtonsTexts
+{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-style:normal;
+    height: 2vw;
+    color: white;
+}
+.btn{
+    text-align: center;
 }
