@@ -14,7 +14,9 @@ function onEntry(entry) {
   for (let elm of elements) {
     observer.observe(elm);
   }
-  const anchors = document.querySelectorAll('a.scroll-to')
+
+
+  const anchors = document.querySelectorAll('.scroll-to')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
