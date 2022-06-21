@@ -28,4 +28,42 @@ for (let anchor of anchors) {
     })
   })
 }
+  
+
+const copy=document.querySelector('#phone')
+
+
+  copy.addEventListener('click', function (e) {
+    navigator.clipboard.writeText('+375292607891')
+    .then(() => {
+      copy.title="Скопировано в буфер обмена"
+    })
+    .catch(err => {
+      console.log('Something went wrong', err);
+    });
+  })
+
+const copy1=document.querySelector('#email')
+
+  copy1.addEventListener('click', function (e) {
+    navigator.clipboard.writeText('ipatiinavarro@gmail.com')
+    .then(() => {
+      copy1.title="Скопировано в буфер обмена"
+    })
+    .catch(err => {
+      console.log('Something went wrong', err);
+    });
+  })
+
+  const copy2=document.querySelector('#discord')
+
+  copy2.addEventListener('click', function (e) {
+    navigator.clipboard.writeText('Muffino#1208')
+    .then(() => {
+      copy2.title="Скопировано в буфер обмена"
+    })
+    .catch(err => {
+      console.log('Something went wrong', err);
+    });
+  })
 
