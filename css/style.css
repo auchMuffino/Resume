@@ -7,10 +7,6 @@ body
 {
     overflow-x: hidden;
 }
-/* .grid
-{
-    background-color: rgba(170,20,50,.3);
-} */
 .nav
 {
     background-color: rgb(137, 62, 232);
@@ -115,7 +111,7 @@ hr
     font-family: 'Anek Malayalam', sans-serif;
     font-style:normal;
     font-weight: 200;
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: rgb(137, 62, 232);
 }
 #Demo_headings h1 {
