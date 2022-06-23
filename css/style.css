@@ -222,7 +222,7 @@ hr
 }
 .element-animation.element-show{
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 1.2s;
 }
 .active
 {
