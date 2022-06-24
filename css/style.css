@@ -220,11 +220,8 @@ hr
 {
     opacity: 0;
 }
-.element-animation.element-show{
+.element-animation.element-show
+{
     opacity: 1;
     transition: opacity 1.2s;
-}
-.active
-{
-    display: none;
 }
