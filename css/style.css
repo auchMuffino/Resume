@@ -71,7 +71,7 @@ hr
 }
 .contactIcon
 {
-    height: 3.2vw;
+    height: 3.45vw;
     width: auto;
 }
 .contacts
@@ -89,7 +89,6 @@ hr
 .hint
 {
     width: 20vw;
-    font-family: 'Anek Malayalam', sans-serif;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Gudea', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
@@ -103,7 +102,7 @@ hr
     font-family: 'Anek Malayalam', sans-serif;
     font-style:normal;
     font-weight: 200;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     color: rgb(137, 62, 232);
 }
 .skills
@@ -223,5 +222,9 @@ hr
 .element-animation.element-show
 {
     opacity: 1;
-    transition: opacity 1.2s;
+    /* transition: opacity 1.2s; */
+    transition-property: opacity;
+  transition-duration: 1.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
